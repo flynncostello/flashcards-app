@@ -6,6 +6,8 @@ import { Provider } from "react-redux";
 import store from "./app/store";
 import reportWebVitals from './reportWebVitals';
 
+// Provider makes the redux store available to any nested components in App
+
 const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
